@@ -1,6 +1,8 @@
 📄 Ask Questions From Your PDF
 A simple Streamlit app that allows users to upload a PDF file and ask questions based on its content. The app uses Google Gemini for AI-powered question answering, LangChain for managing the pipeline, and FAISS for efficient similarity search over document contents.
 
+
+
 🛠️ Features
 Upload PDF: Upload a PDF file to the app.
 
@@ -9,6 +11,8 @@ Text Extraction: Extracts text from the PDF and indexes it for efficient searchi
 AI-Powered Q&A: Ask questions based on the content of the PDF and get answers powered by Google Gemini.
 
 Source Snippets: View source text snippets from the document that support the answer.
+
+
 
 💻 Requirements
 Before running the app, ensure you have the following installed:
@@ -22,6 +26,8 @@ LangChain
 FAISS
 
 Google Gemini API keys (both for embeddings and chat models)
+
+
 
 🚀 Setup Instructions
 1. Clone the Repository
@@ -72,6 +78,8 @@ Copy
 Edit
 GOOGLE_API_KEY=<your-google-api-key>
 Replace <your-google-api-key> with your actual Google Gemini API key. You can obtain the key from the Google Cloud Console.
+
+
 
 🔥 Running the App
 Once everything is set up, you can run the app with:
